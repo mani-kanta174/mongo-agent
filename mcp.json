@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "MongoDB": {
+      "command": "npx",
+      "args": ["-y", "mongodb-mcp-server@latest", "--readOnly"],
+      "env": {
+        "MDB_MCP_API_CLIENT_ID": "",
+        "MDB_MCP_API_CLIENT_SECRET": ""
+      }
+    }
+  }
+}
